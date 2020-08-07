@@ -11,7 +11,7 @@ public class DecreasingSequence {
 		
 		for (int i = 0; i < input2 - 1; i++) {
 			if (input2 == 1) {
-				largeSequence = 1;
+				largeSequence = 0;
 				NoOfSequence = 0;
 			} else {
 				if (arr[i] > arr[i + 1]) {
